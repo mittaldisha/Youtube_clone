@@ -1,0 +1,33 @@
+.feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px ,1fr));
+    grid-column-gap:10px ;
+    grid-row-gap:15px;
+    margin-top: 25px;
+    /* margin-right:10px; */
+    
+}
+.feed img{
+    width:100%;
+    
+}
+.card{
+    /* border-radius:500px; */
+    margin-right:20px;
+}
+.profile{
+    display: flex;
+   align-items: flex-start;
+
+   
+}
+.profile img{
+    width:15%;
+    border-radius: 50%;
+    margin-right:7px;
+}
+.profile h5{
+margin: 2px;
+font-size: 15px;
+font-weight: 500;
+} 
