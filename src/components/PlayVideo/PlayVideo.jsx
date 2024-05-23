@@ -75,7 +75,7 @@ function PlayVideo() {
         <div className='channel-info'>
           <h4>{apiData ? apiData.snippet.channelTitle : 'Title here'}</h4>
           <h5>
-            {value_Convertor(channelData ? channelData.statistics.subscriberCount : '1M')} 
+            {value_Convertor(channelData ? channelData.statistics.subscriberCount : '1M')} Subscriber
           </h5>
         </div>
 
